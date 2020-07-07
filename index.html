@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+</head>
+<body>
+    <h1>Game</h1>
+   <div class="answ">
+      <div class="player"><img src="img/scissors.png" alt="scissors" ></div>
+      <h1 class="playe_score">0</h1>
+      <h1>:</h1>
+      <h1 class="computer_score">0</h1>
+      <div class="computer"><img src="img/scissors.png" alt="scissors"></div>
+   </div>
+  <div class="variant">
+    <div class="scissors" onclick="scissors()"><img src="img/scissors.png" alt="scissors"></div>
+    <div class="rock" onclick="rock()"><img src="img/Rock.png" alt="rock"></div>
+    <div class="paper" onclick="paper()"><img src="img/papir.png" alt="paper"></div>
+  </div>
+  <button onclick="clearScore()">Очистити рахунок</button>
+
+  <script src="index.js"></script>
+</body>
+</html>
